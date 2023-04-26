@@ -36,7 +36,7 @@ namespace WpfApp2
 
             TermekekBetolteseListaba();
 
-            AdatbazisLezarasa();
+           // AdatbazisLezarasa();
 
         }
 
@@ -162,7 +162,7 @@ namespace WpfApp2
                 {
                     SQLSzukitettLista += " AND ";
                 }
-                SQLSzukitettLista += $"katergória='{cbKategoria.SelectedItem}'";
+                SQLSzukitettLista += $"kategória='{cbKategoria.SelectedItem}'";
                 vanMarFeltetel = true;
             }
 
